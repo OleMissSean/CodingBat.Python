@@ -1,0 +1,16 @@
+"""Python String 1 exercise 10.
+
+http://codingbat.com/prob/p127703
+
+Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
+
+non_start('Hello', 'There') → 'ellohere' non_start('java', 'code') → 'avaode' non_start('shotl', 'java') → 'hotlava'"""
+
+def non_start(a, b):
+  
+    l = list(a)
+    m = list(b)
+    l = l[1:]
+    m = m[1:]
+    s = ''.join(l) + ''.join(m)
+    return s
