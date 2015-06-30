@@ -1,4 +1,8 @@
-"""Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+"""Python List 1 exercise 3.
+
+http://codingbat.com/prob/p113659
+
+Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
 
 make_pi() → [3, 1, 4]"""
 
